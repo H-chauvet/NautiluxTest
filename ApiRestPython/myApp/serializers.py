@@ -1,13 +1,14 @@
 from rest_framework import serializers
-from .models import *
+from .models import Category, Product
 
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = '__all__'
+        fields =  ['id', 'name']
 
 class ProductSerializer(serializers.ModelSerializer):
-    category = CategorySerializer()
+    category = serializers.PrimaryKeyRelatedField(queryset=Category.objects.all())
+
     class Meta:
         model = Product
-        fields = '__all__'
+        fields = ['id', 'name', 'product_url', 'category', 'price']
