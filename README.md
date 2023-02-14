@@ -1,5 +1,5 @@
 # LICENSE
-[![License](https://img.shields.io/github/license/H-chauvet/NautiluxTest)](https://github.com/H-chauvet/NautiluxTest)
+[![License](https://img.shields.io/github/license/H-chauvet/DiscordBotJam)](https://github.com/H-chauvet/DiscordBotJam)
 
 # NautiluxTest
 
