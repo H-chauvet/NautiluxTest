@@ -26,6 +26,10 @@ There is differents features about this API
 
 list : (https://localhost:4500/Category/) or (https://localhost:4500/Product) <br>
 create : (https://localhost:4500/Category/create) or (https://localhost:4500/Product/create) <br>
-retrieve : (https://localhost:4500/Category/<id>/retrieve) or (https://localhost:4500/Product/<id>/update) <br>
-delete : (https://localhost:4500/Category/<id>/delete) or (https://localhost:4500/Product/<id>/delete) <br>
-update : (https://localhost:4500/Category/<id>/update) or (https://localhost:4500/Product/<id>/update) <br>
+retrieve : (https://localhost:4500/Category/1/retrieve) or (https://localhost:4500/Product/1/update) <br>
+delete : (https://localhost:4500/Category/1/delete) or (https://localhost:4500/Product/1/delete) <br>
+update : (https://localhost:4500/Category/1/update) or (https://localhost:4500/Product/1/update) <br>
+
+Please note that the "1" in the exemple URL is for make an available URL. <br>
+If you don't have a Category and Product created, this will not work. <br>
+The result will be 404 not found.
