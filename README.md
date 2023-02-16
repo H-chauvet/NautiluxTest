@@ -15,17 +15,17 @@ This project is a technical test for Nautilux. The goal is to create and setup a
 
 # Using the API
 
-You can now access the API with the URL : 'localhost:4500'
+You can now access the API with the URL : (https://localhost:4500)
 
 
 # Features
 
 There is differents features about this API
 
-## Endpoits
+## Endpoints
 
-list : You can access this endpoint with (https://localhost:4500/Category/) or (https://localhost:4500/Product)
-create : You can access this endpoint with (https://localhost:4500/Category/create) or (https://localhost:4500/Product/create)
-retrieve : You can access this endpoint with (https://localhost:4500/Category/<id>/retrieve) or (https://localhost:4500/Product/<id>/update)
-delete : You can access this endpoint with (https://localhost:4500/Category/<id>/delete) or (https://localhost:4500/Product/<id>/delete)
-update : You can access this endpoint with (https://localhost:4500/Category/<id>/update) or (https://localhost:4500/Product/<id>/update)
+list : You can access this endpoint with (https://localhost:4500/Category/) or (https://localhost:4500/Product) <br>
+create : You can access this endpoint with (https://localhost:4500/Category/create) or (https://localhost:4500/Product/create) <br>
+retrieve : You can access this endpoint with (https://localhost:4500/Category/<id>/retrieve) or (https://localhost:4500/Product/<id>/update) <br>
+delete : You can access this endpoint with (https://localhost:4500/Category/<id>/delete) or (https://localhost:4500/Product/<id>/delete) <br>
+update : You can access this endpoint with (https://localhost:4500/Category/<id>/update) or (https://localhost:4500/Product/<id>/update) <br>
