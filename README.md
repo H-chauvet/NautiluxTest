@@ -16,7 +16,7 @@ Before doing following steps, make sure that you have python 3.9.13 installed !
 
 3rd step : Set up the database and the project using 'python3.9 manage.py migrate --run-syncdb'
 
-4rd step : Start the project using 'python3.9 manage.py runserver'
+4rd step : Start the project using 'python3.9 manage.py runserver' or 'python manage.py runserver'
 
 # Using the API
 
