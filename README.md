@@ -7,6 +7,9 @@ This project is a technical test for Nautilux. The goal is to create and setup a
 
 # Installation
 
+Before doing following steps, make sure that you have python 3.9.13 installed !
+
+
 1st step : Install the dependencies with 'pip3 install -r requirements.txt'
 
 2st step : Go in the directory ApiRestPython/.
