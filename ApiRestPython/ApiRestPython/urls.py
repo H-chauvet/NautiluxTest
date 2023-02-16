@@ -3,12 +3,16 @@ from rest_framework.routers import DefaultRouter
 from myApp.views import CategoryViewSet, ProductViewSet
 
 
-# Here, it's the 2 differents routes (Category and Product)
+# Here, it's the 2 differents defaults routes (Category and Product)
 router = DefaultRouter()
 router.register(r'Category', CategoryViewSet)
 router.register(r'Product', ProductViewSet)
 
 # Here, it's the URL for endpoints, list, create, retrieve, update, delete with the correct http request (GET, POST, PUT, DELETE)
+
+# There is one thing i can't fix -> the route /category/list | /product/list to see the see the list of categories or products
+# Actually, we can see the list with the default route : /Category/ or /Product/
+
 urlpatterns = [
     path('Category/<int:pk>/retrieve/', CategoryViewSet.as_view({'get': 'retrieve'}), name='category-detail'),
     path('Product/<int:pk>/retrieve/', ProductViewSet.as_view({'get': 'retrieve'}), name='product-detail'),

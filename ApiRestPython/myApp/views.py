@@ -4,6 +4,8 @@ from .models import Category, Product
 from .serializers import CategorySerializer, ProductSerializer
 
 # View for Category
+# Here, there are all the views for the Category model, it's also called the 'endpoints'
+# There is : list, destroy(delete), retrieve and create
 class CategoryViewSet(viewsets.ModelViewSet):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
@@ -44,7 +46,9 @@ class CategoryViewSet(viewsets.ModelViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
 
 
-# View for Product        
+# View for Product
+# # Here, there are all the views for the Product model, it's also called the 'endpoints'
+# There is : list, destroy(delete), retrieve and create   
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
