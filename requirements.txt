@@ -1,3 +1,4 @@
 python-dotenv
 djangorestframework
 django
+black

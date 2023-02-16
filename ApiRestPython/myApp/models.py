@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Category model
 # Here, we need to define all the fields we'll need for the Category model
 class Category(models.Model):
