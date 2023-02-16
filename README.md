@@ -24,8 +24,8 @@ There is differents features about this API
 
 ## Endpoints
 
-list : You can access this endpoint with (https://localhost:4500/Category/) or (https://localhost:4500/Product) <br>
-create : You can access this endpoint with (https://localhost:4500/Category/create) or (https://localhost:4500/Product/create) <br>
-retrieve : You can access this endpoint with (https://localhost:4500/Category/<id>/retrieve) or (https://localhost:4500/Product/<id>/update) <br>
-delete : You can access this endpoint with (https://localhost:4500/Category/<id>/delete) or (https://localhost:4500/Product/<id>/delete) <br>
-update : You can access this endpoint with (https://localhost:4500/Category/<id>/update) or (https://localhost:4500/Product/<id>/update) <br>
+list : (https://localhost:4500/Category/) or (https://localhost:4500/Product) <br>
+create : (https://localhost:4500/Category/create) or (https://localhost:4500/Product/create) <br>
+retrieve : (https://localhost:4500/Category/<id>/retrieve) or (https://localhost:4500/Product/<id>/update) <br>
+delete : (https://localhost:4500/Category/<id>/delete) or (https://localhost:4500/Product/<id>/delete) <br>
+update : (https://localhost:4500/Category/<id>/update) or (https://localhost:4500/Product/<id>/update) <br>
