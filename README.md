@@ -45,7 +45,7 @@ The result will be 404 not found.
 
 There is some tests about this REST API
 
-You can launch them with these steps :
+You can launch them by follwing these steps :
 
 1st step : Go into the ApiRestPython/ directory
 
