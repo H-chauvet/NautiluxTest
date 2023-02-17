@@ -11,7 +11,7 @@ Before doing following steps, make sure that you have python 3.9.13 installed ! 
 All informations can be found here : (https://www.python.org/downloads/)
 
 
-1st step : Install the dependencies with `pip install -r requirements.txt`
+1st step : Install the dependencies with `pip install -r requirements.txt` <br>
 (Note that you way need 'sudo' to garantee that all the dependencies will be correctly installed)
 
 2st step : Go in the directory ApiRestPython/.
