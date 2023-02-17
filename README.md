@@ -1,5 +1,7 @@
-# LICENSE
+# BADGES
 [![License](https://img.shields.io/github/license/H-chauvet/DiscordBotJam)](https://github.com/H-chauvet/DiscordBotJam)
+[![Build](https://img.shields.io/github/workflow/status/H-chauvet/NautiluxTest/Build)](https://github.com/H-chauvet/NautiluxTest/actions/workflows/django.yml)
+
 
 # NautiluxTest
 
