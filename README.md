@@ -40,7 +40,7 @@ Please note that the "1" in the exemple URL is for make an available URL. <br>
 If you don't have a Category and Product created, this will not work. <br>
 The result will be 404 not found.
 
-## Tests
+# Tests
 
 There is some tests about this REST API
 
