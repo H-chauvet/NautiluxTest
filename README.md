@@ -49,3 +49,7 @@ You can launch them with these steps :
 1st step : Go into the ApiRestPython/ directory
 
 2nd step : Launch tests using : `python manage.py test`
+
+# Copyrights
+
+© 2023 Henri Chauvet. All rights reserved.
