@@ -12,11 +12,17 @@ class CategoryViewSet(viewsets.ModelViewSet):
     serializer_class = CategorySerializer
 
     def destroy(self, request, *args, **kwargs):
+        """
+        Function to perform the 'delete' endpoint
+        """
         instance = self.get_object()
         self.perform_destroy(instance)
         return Response(status=status.HTTP_204_NO_CONTENT)
 
     def list(self, request, *args, **kwargs):
+        """
+        Function to perform the 'list' endpoint
+        """
         queryset = self.filter_queryset(self.get_queryset())
         if "name" in request.GET:
             name = request.GET.get("name")
@@ -25,11 +31,17 @@ class CategoryViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
     def retrieve(self, request, *args, **kwargs):
+        """
+        Function to perform the 'retrieve' endpoint
+        """
         instance = self.get_object()
         serializer = self.get_serializer(instance)
         return Response(serializer.data)
 
     def create(self, request, *args, **kwargs):
+        """
+        Function to perform the 'create' endpoint
+        """
         data = request.data
         serializer = self.get_serializer(data=data)
         serializer.is_valid(raise_exception=True)
@@ -49,11 +61,17 @@ class ProductViewSet(viewsets.ModelViewSet):
     serializer_class = ProductSerializer
 
     def destroy(self, request, *args, **kwargs):
+        """
+        Function to perform the 'delete' endpoint
+        """
         instance = self.get_object()
         self.perform_destroy(instance)
         return Response(status=status.HTTP_204_NO_CONTENT)
 
     def list(self, request, *args, **kwargs):
+        """
+        Function to perform the 'list' endpoint
+        """
         queryset = self.filter_queryset(self.get_queryset())
         if "name" in request.GET:
             name = request.GET.get("name")
@@ -68,11 +86,17 @@ class ProductViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
     def retrieve(self, request, *args, **kwargs):
+        """
+        Function to perform the 'retrieve' endpoint
+        """
         instance = self.get_object()
         serializer = self.get_serializer(instance)
         return Response(serializer.data)
 
     def create(self, request, *args, **kwargs):
+        """
+        Function to perform the 'create' endpoint
+        """
         data = request.data
         serializer = self.get_serializer(data=data)
         serializer.is_valid(raise_exception=True)
