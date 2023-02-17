@@ -47,12 +47,12 @@ urlpatterns = [
     path(
         "Category/create/",
         CategoryViewSet.as_view({"post": "create"}),
-        name="category_create",
+        name="category-create",
     ),
     path(
         "Product/create/",
         ProductViewSet.as_view({"post": "create"}),
-        name="product_create",
+        name="product-create",
     ),
     path(
         "Category/",
