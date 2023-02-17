@@ -1,5 +1,5 @@
 # BADGES
-[![License](https://img.shields.io/github/license/H-chauvet/DiscordBotJam)](https://github.com/H-chauvet/DiscordBotJam)
+![GitHub](https://img.shields.io/github/license/H-chauvet/NautiluxTest)
 [![Build](https://github.com/H-chauvet/NautiluxTest/actions/workflows/django.yml/badge.svg?branch=master)](https://github.com/H-chauvet/NautiluxTest/actions/workflows/django.yml)
 
 
