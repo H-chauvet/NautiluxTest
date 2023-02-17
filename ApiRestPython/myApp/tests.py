@@ -53,6 +53,13 @@ class CategoryTest2(APITestCase):
         response = self.client.delete(f"/Category/{self.category.id}/")
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
         self.assertFalse(Category.objects.filter(id=self.category.id).exists())
+    
+    def test_delete_non_existing_category(self):
+        """
+        Test that we can't delete an invalid category
+        """
+        response = self.client.delete(reverse('category-detail', args=[1000]))
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
 
 class ProductTests(APITestCase):
@@ -161,3 +168,11 @@ class ProductTest2(APITestCase):
         response = self.client.delete(self.url)
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
         self.assertFalse(Product.objects.filter(pk=self.product.pk).exists())
+    
+    def test_delete_non_existing_product(self):
+        """
+        Test that we can't delete an invalid product
+        """
+        response = self.client.delete(reverse('product-detail', args=[1000]))
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
