@@ -28,7 +28,7 @@ You can now access the API with the URL : (https://localhost:8000)
 
 There is differents features about this API
 
-## Endpoints
+### Endpoints
 
 list : (https://localhost:8000/Category/) or (https://localhost:8000/Product) <br>
 create : (https://localhost:8000/Category/create) or (https://localhost:8000/Product/create) <br>
