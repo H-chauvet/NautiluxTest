@@ -3,7 +3,7 @@
 
 # NautiluxTest
 
-This project is a technical test for Nautilux. The goal is to create and setup a REST API using Python with Django/Django Rest Framework.
+This project is a technical test for Nautilux. The goal is to create and setup a REST API using Python with Django / Django Rest Framework.
 
 # Installation
 
