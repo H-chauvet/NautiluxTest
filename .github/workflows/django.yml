@@ -26,5 +26,4 @@ jobs:
         SECRET_KEY: ${{ secrets.SECRET_KEY }}
       run: |
         cd ApiRestPython/
-        cat ApiRestPython/settings.py
         python manage.py test
