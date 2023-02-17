@@ -14,7 +14,7 @@ All informations can be found here : (https://www.python.org/downloads/)
 1st step : Install the dependencies with `pip install -r requirements.txt` <br>
 (Note that you way need 'sudo' to garantee that all the dependencies will be correctly installed)
 
-2st step : Go in the directory ApiRestPython/.
+2nd step : Go in the directory ApiRestPython/.
 
 3rd step : Set up the project using `python manage.py migrate --run-syncdb`
 
