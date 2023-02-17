@@ -10,13 +10,14 @@ This project is a technical test for Nautilux. The goal is to create and setup a
 Before doing following steps, make sure that you have python 3.9.13 installed !
 
 
-1st step : Install the dependencies with 'pip3 install -r requirements.txt'
+1st step : Install the dependencies with 'pip install -r requirements.txt'
+(Note that you way need 'sudo' to garantee that all the dependencies will be correctly installed)
 
 2st step : Go in the directory ApiRestPython/.
 
-3rd step : Set up the project using 'python3.9 manage.py migrate --run-syncdb' or 'python manage.py migrate --run-syncdb'
+3rd step : Set up the project using 'python manage.py migrate --run-syncdb'
 
-4rd step : Start the project using 'python3.9 manage.py runserver' or 'python manage.py runserver'
+4rd step : Start the project using 'python manage.py runserver'
 
 # Using the API
 
@@ -38,3 +39,13 @@ update : (https://localhost:8000/Category/1/update) or (https://localhost:8000/P
 Please note that the "1" in the exemple URL is for make an available URL. <br>
 If you don't have a Category and Product created, this will not work. <br>
 The result will be 404 not found.
+
+## Tests
+
+There is some tests about this REST API
+
+You can launch them with these steps :
+
+1st step : Go into the ApiRestPython/ directory
+
+2nd step : Launch tests using : python manage.py test
