@@ -22,7 +22,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Go in the ApiRestPython directory
-      run: cd ApiRestPython/
+      run: |
+        cd ApiRestPython/
+        ls
+        pwd
     - name: Run Tests
       run: |
         ls
