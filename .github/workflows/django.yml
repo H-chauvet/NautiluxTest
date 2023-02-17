@@ -22,8 +22,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Go in the ApiRestPython directory
-      run: |
+      run: cd ApiRestPython/
     - name: Run Tests
       run: |
         ls
-        python ApiRestPython/manage.py test
+        python manage.py test
