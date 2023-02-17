@@ -10,8 +10,8 @@ router.register(r"Product", ProductViewSet)
 
 # Here, it's the URL for endpoints, list, create, retrieve, update, delete with the correct http request (GET, POST, PUT, DELETE)
 
-# There is one thing i can't fix -> the route /category/list | /product/list to see the see the list of categories or products
-# Actually, we can see the list with the default route : /Category/ or /Product/
+# There is one thing I can't fix -> the route /Category/list and /Product/list to see the list of categories or products
+# However, we can see the list with the default route : /Category/ or /Product/
 
 urlpatterns = [
     path(
