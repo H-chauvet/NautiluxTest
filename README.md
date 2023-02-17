@@ -32,7 +32,7 @@ There is differents features about this API
 
 list : (https://localhost:8000/Category/) or (https://localhost:8000/Product) <br>
 create : (https://localhost:8000/Category/create) or (https://localhost:8000/Product/create) <br>
-retrieve : (https://localhost:8000/Category/1/retrieve) or (https://localhost:8000/Product/1/update) <br>
+retrieve : (https://localhost:8000/Category/1/retrieve) or (https://localhost:8000/Product/1/retrieve) <br>
 delete : (https://localhost:8000/Category/1/delete) or (https://localhost:8000/Product/1/delete) <br>
 update : (https://localhost:8000/Category/1/update) or (https://localhost:8000/Product/1/update) <br>
 
