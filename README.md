@@ -10,14 +10,14 @@ This project is a technical test for Nautilux. The goal is to create and setup a
 Before doing following steps, make sure that you have python 3.9.13 installed !
 
 
-1st step : Install the dependencies with 'pip install -r requirements.txt'
+1st step : Install the dependencies with `pip install -r requirements.txt`
 (Note that you way need 'sudo' to garantee that all the dependencies will be correctly installed)
 
 2st step : Go in the directory ApiRestPython/.
 
-3rd step : Set up the project using 'python manage.py migrate --run-syncdb'
+3rd step : Set up the project using `python manage.py migrate --run-syncdb`
 
-4rd step : Start the project using 'python manage.py runserver'
+4rd step : Start the project using `python manage.py runserver`
 
 # Using the API
 
@@ -48,4 +48,4 @@ You can launch them with these steps :
 
 1st step : Go into the ApiRestPython/ directory
 
-2nd step : Launch tests using : python manage.py test
+2nd step : Launch tests using : `python manage.py test`
